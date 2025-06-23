@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="pic/logo1.png" alt="Logo" width="250" height="200">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#SKILLS">SKILLS</a></li>
+                <li><a href="#PROJECTS">PROJECTS</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="info" id="HOME">
+            <h1><span>Q</span>UICK <span>L</span>EARNER</h1>
+            <h3>Hi, I'm <span>Neelima</span></h3>
+            <h3>
+                Myself a Computer Science student passionate about 
+                <br>technology and problem-solving.
+                <br>This is my portfolio where I share my projects, skills, and 
+                <br>learning journey as I grow and explore new ideas.
+            </h3>
+            <a href="#ABOUT" class="btn">Let’s Go ↓</a>
+        </div>
+
+        <!-- PHOTO -->
+        <div class="photo">
+            <img src="pic/neelu.jpg" alt="neelu">
+        </div>
+
+        <!-- ABOUT -->
+        <div class="section" id="ABOUT">
+            <h1><span>A</span>bout <span>M</span>e</h1>
+            <h3>
+                I am currently pursuing a B.Tech in Computer Science and Engineering at Pragati Engineering College, Surampalem, Kakinada, with a CGPA of 9.1. 
+                <br>Before this, I completed my Intermediate at Narayana Junior College Kakinada with 98.5%.
+                <br>SSC from Pragati English Medium School, Kakinada with 99%.
+                <br>I achieved an EAMCET rank of 14000.
+                <br>I come from a nuclear family – my father Nanaji Nakka, my mother Nakka Mahalakshmi, and my younger brother Nakka Hemanth.
+                <br>My hobbies include listening to music. I'm passionate about learning and growing.
+            </h3>
+        </div>
+        <div class="section" id="SKILLS">
+            <h1><span>S</span>kills</h1>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>C Programming</li>
+                <li>Data Structures & Algorithms</li>
+        </div>
+        <div class="section" id="PROJECTS">
+            <h1><span>P</span>rojects</h1>
+                <li><strong>Recipe Finder:</strong> A mini project that allows users to find recipes by ingredients.</li>
+                <li><strong>Portfolio Website:</strong> This portfolio site to showcase my journey, skills, and projects.</li>
+        </div>
+        <div class="section" id="CONTACT">
+            <h1><span>C</span>ontact <span>M</span>e</h1>
+            <p><strong>Email:</strong> neelimanakka2006@gmail.com</p>
+            <p><strong>Phone:</strong> +91-9949904497</p>
+            <p><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/neelima-nakka-b82b342b8</a></p>
+            <p><strong>GitHub:</strong> <a href="#">https://github.com/Neelimanakka</a></p>
+        </div>
+        <button onclick="scrollToTop()" id="topBtn" title="Go to top">↑</button>
+        <script>
+            window.onscroll = function () {
+                let btn = document.getElementById("topBtn");
+                btn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+            };
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        </script>
+
+    </div>
+</body>
+</html>
