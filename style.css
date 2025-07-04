@@ -103,8 +103,8 @@ ul li a:hover {
     transition: transform 0.4s ease;
 }
 .photo img {
-    width: 300px;
-    height: 450px;
+    width: 350px;
+    height: 400px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0,0.3);
     transition: transform 0.4s ease;
@@ -170,14 +170,14 @@ ul li a:hover {
 #topBtn {
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 40px;
+    right: 50px;
     z-index: 99;
     font-size: 18px;
-    background-color: rgb(91, 43, 187);
+    background-color: rgb(144, 124, 36);
     color: white;
     border: none;
-    padding: 12px 18px;
+    padding: 25px 25px;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
